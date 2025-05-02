@@ -1,7 +1,10 @@
 # mlproject1
-전날의 코스피 정보를 이용하여 close를 예측하는 프로젝트
+Project to predict todays KOSPI's close using KOSPI information from the previous day.
 
-주어진 load_data.ipynb를 확장하였다.
+Extended th given load_data.ipynb
 
-ISLP는 랩정보가 제공되는 machine_learning_islp_main 에서 복사해왔다. 
+ISLP has been copied from machine_learning_islp_main, where provided in lab 3.
 
+used k-fold crossvalidation to get the optimal model.
+
+Data related to additional variables for model expansion are in trade_test, trade_train in the data file.
